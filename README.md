@@ -13,3 +13,7 @@ Simply copy the file `DPR1Eigensystem.m` anywhere, where _Mathematica_ can find 
 
 Run ``PR1Eigensystem`*`` to see the packages contents.
 The main routine is just called `DPR1Eigensystem`. Run ``?DPR1Eigensystem`` to get its syntax information. 
+
+# Disclaimer
+
+All this is done under the assumption that no two elements of `diag` coincide. The Cauchy interlacing theorem implies that no eigenvalue has a multiplicity. Not sure how to deal with multiplicities...
